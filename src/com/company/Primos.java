@@ -2,7 +2,9 @@ package com.company;
 
 public class Primos {
 
-    /**
+    /***********************************************************************************************
+     * gh repo clone alusan216/refactorizar
+     ***********************************************************************************************
      * @param max Número que determina el usuario como máximo para la generación de números primos
      * @return Devuelve el método que realiza llena  vector de números primos
      */
