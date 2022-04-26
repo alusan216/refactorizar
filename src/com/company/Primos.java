@@ -16,6 +16,7 @@ public class Primos {
             esPrimo[0] = esPrimo[1] = false;
             // Criba
             for (i=2; i<Math.sqrt(dim)+1; i++) {
+
                 if (esPrimo[i]) {
                     // Eliminar los múltiplos de i
                     for (j = 2 * i; j < dim; j += i) {
