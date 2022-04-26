@@ -3,8 +3,8 @@ package com.company;
 public class Primos {
 
     /**
-     * @param max Numero que determina el usuario como maximo para la generación de núemros primos
-     * @return Devuelve el metodo que realiza el llenado del vector con numeros primos
+     * @param max Número que determina el usuario como máximo para la generación de números primos
+     * @return Devuelve el método que realiza llena  vector de números primos
      */
 // Generar números primos de 1 a max
     public static int[] generarPrimos (int max) {
@@ -39,7 +39,7 @@ public class Primos {
     /**
      * @param dim Determina el tamaño del array
      * @param esPrimo Determina si es primo o no
-     * @return Devuelve la cuenta de numeros primos
+     * @return Devuelve el conteo de números primos
      */
     //¿Cuántos primos hay?
     public int cuentaPrimos(int dim, boolean [] esPrimo) {
@@ -53,10 +53,10 @@ public class Primos {
 
 
     /**
-     * @param cuenta Determina cuantos numeros primos hay
+     * @param cuenta Determina cuantos números primos hay
      * @param dim Determina el tamaño del array
      * @param esPrimo Determina si es primo o no
-     * @return Devuelve la serie de numeros primos para rellenar el vector con ellos
+     * @return Devuelve la serie de números primos para rellenar el vector con ellos
      */
     // Rellenar el vector de números primos
     public int [] rellenarVectorPrimos(int cuenta, int dim, boolean [] esPrimo){
@@ -74,7 +74,7 @@ public class Primos {
     /**
      * @param esPrimo Determina si es primo o no
      * @param dim Determina el tamaño del array
-     * @return Devuelve si es primo o no mediante un boolean
+     * @return Devuelve si es primo o no mediante un booleano
      */
     public boolean [] criba(boolean [] esPrimo, int dim){
         for (int i=2; i<Math.sqrt(dim)+1; i++) {
